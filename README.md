@@ -5,11 +5,13 @@ IoT based general purpose Security and Surveillance system for home, office, tra
 
 * [NodeMCU : ](https://github.com/nodemcu/nodemcu-firmware)
 An open-source firmware and development kit that helps you to prototype your IOT product easily.The Development Kit based on ESP8266, integates GPIO, PWM, IIC, 1-Wire and ADC all in one board. Power your developement in the fastest way combinating with NodeMCU Firmware.
+
 <img src="https://github.com/RatulGhosh/Temperature_monitoring_system/blob/master/images/c1s.jpg_450x300.jpg" />
 
 * [Buzzer : ](https://en.wikipedia.org/wiki/Buzzer)
  Buzzer or beeper is an audio signalling device, which may be mechanical, electromechanical, or piezoelectric. Typical uses of buzzers and beepers include alarm devices, timers and confirmation of user input such as a mouse click or keystroke.
-<img src="https://github.com/RatulGhosh/Temperature_monitoring_system/blob/master/images/c1s.jpg_450x300.jpg" />
+
+<img src="https://raw.githubusercontent.com/RatulGhosh/Security-and-Surveillance/master/images/buzzer.jpg" />
 
 
 
