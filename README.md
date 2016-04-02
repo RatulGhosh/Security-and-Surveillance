@@ -1,5 +1,6 @@
 # Security-and-Surveillance
 IoT based general purpose Security and Surveillance system for home, office, traffic etc.
+The application continuously records videos and if there is any motion a signal is sent to the Node Mcu which in turn triggers a buzzer. There is an extended application of integrating with the Dropbox API so that the system can automatically upload security photos to our personal Dropbox account.
 
 ## Hardware used : 
 
@@ -16,7 +17,7 @@ An open-source firmware and development kit that helps you to prototype your IOT
 
 
 ## Working : 
-There are two nodes and each node is connected to a temperature sensor. Each node has an Node MCU. The sensors are  placed in different rooms which continuously sends the temperature values to the raspberry pi acting as the server (In order to save space I am storing the temperature after every 2 minutes).The temperature is continuously checked with the threshold temperature and if it crosses that temperature a warning message is sent to the website and the android app,also the control mechanism (a CPU fan in this case) is switched on.  The temperature readings will be displayed on the web page as well as on the android app , also the control mechanism can be operated i.e switched on and  off from the website and the app. Also there is an extended option in the android app to change the threshold temperature.
+The application continuously records videos and if there is any motion a signal is sent to the Node Mcu which in turn triggers a buzzer. We take the difference of the current frame from the initial frame(the weighted average from the current frame). We then find regions of our image that contain substantial difference from the background model — these regions thus correspond to motion in the video stream. We ingore the difference if it is below a threshold value and if the current image pass the thresholding test we upload that to our dropbox folder.
 
 
 
