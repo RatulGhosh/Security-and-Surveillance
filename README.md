@@ -28,7 +28,7 @@ The application continuously records videos and if there is any motion a signal 
   <img src="https://raw.githubusercontent.com/RatulGhosh/Security-and-Surveillance/master/images/vlcsnap-2016-04-03-10h57m03s146.png"
   width="264" alt="Screenshot"/>
 <img src="https://raw.githubusercontent.com/RatulGhosh/Security-and-Surveillance/master/images/Capture.PNG"
-  width="264" alt="Screenshot"/>
+ alt="Screenshot"/>
  <img src="https://raw.githubusercontent.com/RatulGhosh/Security-and-Surveillance/master/images/giphy.gif"  alt="Screenshot"/> 
   
 </p>
