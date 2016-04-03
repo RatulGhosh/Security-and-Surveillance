@@ -20,6 +20,16 @@ An open-source firmware and development kit that helps you to prototype your IOT
 The application continuously records videos and if there is any motion a signal is sent to the Node Mcu which in turn triggers a buzzer. We take the difference of the current frame from the initial frame(the weighted average from the current frame). We then find regions of our image that contain substantial difference from the background model — these regions thus correspond to motion in the video stream. We ingore the difference if it is below a threshold value and if the current image pass the thresholding test we upload that to our dropbox folder.
 
 
+### Screenshot
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RatulGhosh/Security-and-Surveillance/master/images/vlcsnap-2016-04-03-10h56m53s340.png" width="264" alt="Screenshot"/>
+  <img src="https://raw.githubusercontent.com/RatulGhosh/Security-and-Surveillance/master/images/vlcsnap-2016-04-03-10h56m54s280.png" width="264" alt="Screenshot"/>
+  <img src="https://raw.githubusercontent.com/RatulGhosh/Security-and-Surveillance/master/images/vlcsnap-2016-04-03-10h57m03s146.png" width="264" alt="Screenshot"/>
+  
+</p>
+
+
 
 
 ### License
